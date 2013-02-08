@@ -16,7 +16,7 @@
 
 
 # Pick up overlay for features that depend on non-open-source files
-DEVICE_PACKAGE_OVERLAYS := device/lge/common/overlay
+DEVICE_PACKAGE_OVERLAYS := device/lge/msm8960-common/overlay
 DEVICE_PACKAGE_OVERLAYS += device/lge/MS770/overlay
 
 $(call inherit-product, vendor/lge/MS770/MS770-vendor-blobs.mk)
