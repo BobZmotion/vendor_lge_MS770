@@ -32,30 +32,33 @@ PRODUCT_COPY_FILES += \
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ###################### DON'T EDIT ###################################
 PRODUCT_COPY_FILES += \
+    vendor/lge/MS770/proprietary/system/bin/atd:system/bin/atd \
+    vendor/lge/MS770/proprietary/system/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
+    vendor/lge/MS770/proprietary/system/bin/bridgemgrd:system/bin/bridgemgrd \
+    vendor/lge/MS770/proprietary/system/bin/cnd:system/bin/cnd \
+    vendor/lge/MS770/proprietary/system/bin/drmserver:system/bin/drmserver \
+    vendor/lge/MS770/proprietary/system/bin/ftm_ptt:system/bin/ftm_ptt \
+    vendor/lge/MS770/proprietary/system/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/lge/MS770/proprietary/system/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/lge/MS770/proprietary/system/bin/hdmid:system/bin/hdmid \
     vendor/lge/MS770/proprietary/system/bin/hostapd:system/bin/hostapd \
+    vendor/lge/MS770/proprietary/system/bin/lgdrmserver:system/bin/lgdrmserver \
+    vendor/lge/MS770/proprietary/system/bin/lgsecclkserver:system/bin/lgsecclkserver \
+    vendor/lge/MS770/proprietary/system/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/lge/MS770/proprietary/system/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/MS770/proprietary/system/bin/mpdecision:system/bin/mpdecision \
     vendor/lge/MS770/proprietary/system/bin/netmgrd:system/bin/netmgrd \
-    vendor/lge/MS770/proprietary/system/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/lge/MS770/proprietary/system/bin/qmuxd:system/bin/qmuxd \
-    vendor/lge/MS770/proprietary/system/bin/thermald:system/bin/thermald \
-    vendor/lge/MS770/proprietary/system/bin/time_daemon:system/bin/time_daemon \
-    vendor/lge/MS770/proprietary/system/bin/cnd:system/bin/cnd \
-    vendor/lge/MS770/proprietary/system/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/lge/MS770/proprietary/system/bin/port-bridge:system/bin/port-bridge \
     vendor/lge/MS770/proprietary/system/bin/qmiproxy:system/bin/qmiproxy \
-    vendor/lge/MS770/proprietary/system/bin/sensors.qcom:system/bin/sensors.qcom \
+    vendor/lge/MS770/proprietary/system/bin/qmuxd:system/bin/qmuxd \
+    vendor/lge/MS770/proprietary/system/bin/qseecomd:system/bin/qseecomd \
     vendor/lge/MS770/proprietary/system/bin/quipc_igsn:system/bin/quipc_igsn \
     vendor/lge/MS770/proprietary/system/bin/quipc_main:system/bin/quipc_main \
-    vendor/lge/MS770/proprietary/system/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
-    vendor/lge/MS770/proprietary/system/bin/hdmid:system/bin/hdmid \
-    vendor/lge/MS770/proprietary/system/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/lge/MS770/proprietary/system/bin/rild:system/bin/rild \
-    vendor/lge/MS770/proprietary/system/bin/ftm_ptt:system/bin/ftm_ptt \
-    vendor/lge/MS770/proprietary/system/bin/gsiff_daemon:system/bin/gsiff_daemon \
-    vendor/lge/MS770/proprietary/system/bin/qseecomd:system/bin/qseecomd \
-    vendor/lge/MS770/proprietary/system/bin/atd:system/bin/atd \
+    vendor/lge/MS770/proprietary/system/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/lge/MS770/proprietary/system/bin/sensors.qcom:system/bin/sensors.qcom \
+    vendor/lge/MS770/proprietary/system/bin/thermald:system/bin/thermald \
+    vendor/lge/MS770/proprietary/system/bin/time_daemon:system/bin/time_daemon \
     vendor/lge/MS770/proprietary/system/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/lge/MS770/proprietary/system/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/lge/MS770/proprietary/system/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
